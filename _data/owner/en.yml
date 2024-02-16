@@ -2,10 +2,10 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "aramooooo"
+brand: "람블로그"
 
 # text below the brand name
-brand_sub_text: "$site_sample"
+brand_sub_text: "aramo"
 
 # used for seo meta post author (if it's not defined in post)
 name: "Oh Aram"
@@ -13,13 +13,13 @@ name: "Oh Aram"
 # home page top header texts
 home:
   # you can also use $site_brand, $site_greetings, $site_welcome in line1 and line2 for replacing texts.
-  top_header_line1: "$site_welcome"
+  top_header_line1: "아자아자 오아람의"
   # if commented, top header will be a single line
-  top_header_line2: "$site_brand"
+  top_header_line2: "개발 블로그"
 
 # about page sub title
 about:
-  sub_title: "$site_sample"
+  sub_title: "개발 관련 내용을 기록하는 블로그입니다"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
@@ -42,7 +42,7 @@ creative_commons:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: "Your meta description."
+meta_common_description: "오아람의 개발 블로그"
 
 # contact options (side nav bottom and about page)
 # the order of the items will be shown as here.
