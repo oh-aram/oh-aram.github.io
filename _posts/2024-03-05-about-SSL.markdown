@@ -1,0 +1,79 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_about_SSL
+title: SSL에 대하여
+
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: oh-aram
+# multiple category is not supported
+category: SSL
+# multiple tag entries are possible
+tags: [SSL, http, https]
+# thumbnail image for post
+img: ":post_pic1.jpg"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2024-03-05 14:57:06 +0900
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-02-10 08:11:06 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
+# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
+#image_viewer_on: true
+# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
+# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+#published: false
+---
+
+<!-- outline-start -->
+
+<!-- outline-end -->
+
+# SSL에 대한 내용을 기록한 포스트 입니다.
+{:data-align="center"}
+
+***
+
+### SSL이란
+
+>SSL(Secure Sockets Layer) 보안 소켓 계층
+
+암호화 기반의 인터넷 보안 프로토콜이다. 인터넷 통신의 개인정보 보호, 인증, 데이터 무결성을 보장하기 위해 Netscape가 처음으로 개발하였다.
+SSL은 현재 사용 중인 TLS 암호화의 전신이다.
+
+SSL/TLS를 사용하는 웹사이트의 URL에는 "HTTP" 대신 "HTTPS"가 있습니다.
+
+![such a lovely place](:http-vs-https.svg){:data-align="center"}
+
+### SSL/TLS의 작동
+
+- SSL은 높은 수준의 개인정보 보호를 위해 웹에서 전송되는 데이터를 암호화 한다. 따라서 데이터를 가로채려는 자가 해독할 수 없는 복잡한 문자만 보게 된다.
+- SSL은 두 통신 장치 사이에 핸드셰이크를 통해 두 장치의 ID를 확인한다.
+- SSl은 **데이터 무결성**을 제공하기 위해 데이터에 디지털 서명하여 데이터가 의도된 수신자에게 도착하기 전에 조작되지 않았다는 것을 확인한다.
+
+> 데이터 무결성(data inergrity): 데이터 무결성은 데이터의 정확성, 일관성, 유효성이 유지되는 것을 의미한다.
+> 여기서 정확성이란 중복이나 누락이 없는 상태를 의미하고, 일관성은 원인과 결과의 의미가 연속적으로 보장되어 변하지 않는 상태를 의미한다.
+
+### TSL
+
+> TLS(Transport Layer Security) 전송 계층 보안
+
+TLS는 SSL의 더욱 향상된 안전한 버전이다. 대부분 더이상의 SSL은 사용되지 않으며 대부분의 경우 SSL 및 SSL/TLS라는 용어 모두 TLS 프로토콜과 TLS 인증서를 나타낸다.
+
+***
+#### 출처 [SSL](https://www.cloudflare.com/ko-kr/learning/ssl/what-is-ssl/), [데이터 무결성](https://cocoon1787.tistory.com/778), [TSL](https://aws.amazon.com/ko/what-is/ssl-certificate/)
+

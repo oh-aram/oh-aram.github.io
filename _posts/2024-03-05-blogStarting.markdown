@@ -7,7 +7,7 @@ title: 블로그 로컬 실행
 # if not specified, .name will be used from _data/owner/[language].yml
 author: oh-aram
 # multiple category is not supported
-category: jekyll
+category: bundler
 # multiple tag entries are possible
 tags: [jekyll, ruby, bundler]
 # thumbnail image for post
@@ -101,3 +101,5 @@ vim ~/.zshrc 로 뒤에 붙여주거나 echo를 활용
 source ~/.zshrc를 통해 수정한 환경변수 적용
 
 ***
+
+#### 출처 [Ruby](https://codecamper.me/blog/122/)
