@@ -51,8 +51,9 @@ date: 2024-03-05 11:57:06 +0900
 
 #### Bundler
 
->$bundle exec jekyll serve
-
+```python
+$bundle exec jekyll serve
+```
 위의 명령어를 통해 깃 블로그 로컬 실행
 
 해당 명령어로 실행되지 않는 다면 업데이트 후 재실행
@@ -62,24 +63,32 @@ date: 2024-03-05 11:57:06 +0900
 ### Ruby
 
 **rbenv를 통해 Ruby 설치**
-> $rbenv install -l
+
+```python
+$rbenv install -l
+```
 
 해당 명령어를 통해 설치할 수 있는 Ruby 버전을 확인한다.
->$rbenv install -.-.-
+{% highlight python %}
+$rbenv install -.-.-
+{% endhighlight %}
+
 
 제일 최신 버전의 Ruby를 설치해준 후 **rbenv versions**을 통해 버전을 확인
-
-> $which ruby
-> 
-> /usr/bin/ruby
+```python
+$which ruby
+/usr/bin/ruby
+```
 
 아직 ruby는 기존 OS에 설치된 ruby(system)을 가리키고 있다.
-
-> $rbenv global -.-.-
+```python
+$rbenv global -.-.-
+```
 
 위의 명령어를 통해 rbenv에 설치된 ruby를 가리키도록 바꿔준다.
-
-> $ruby --version
+```python
+$ruby --version
+```
 
 명령어를 통해 **rbenv versions** 명령어와 일치하는지 확인
 
@@ -90,13 +99,13 @@ rbenv global 명령을 실행하고, rbenv versions를 통해 확인한 버전�
 이 경우 환경변수 설정이 필요합니다.
 
 rbenv init을 실행하고, 출력되는 eval~ 줄을 2번째 줄에 표시되는 파일 뒤에 붙여넣습니다.
+```python
+$ rbenv init
+#Load rbenv automatically by appending
+#the following to ~/.zshrc:
 
->$ rbenv init
->Load rbenv automatically by appending
->the following to ~/.zshrc:
-
->eval "$(rbenv init - zsh)"
-
+eval "$(rbenv init - zsh)"
+```
 vim ~/.zshrc 로 뒤에 붙여주거나 echo를 활용
 source ~/.zshrc를 통해 수정한 환경변수 적용
 
