@@ -81,6 +81,8 @@ SSL 인증서는 공개 키과 개인 키라는 키쌍을 가지고 있다. 이 
 SSL 인증서 발급자(인증 기관 또는 CA라 함)에게 보내는 CSR 데이터 파일에는 공개 키가 포함된다.
 인증 기관은 CSR 데이터 파일을 사용해 키 자체를 훼손하지 않고 개인 키에 맞는 데이터 구조를 생성한다.
 인증 기관은 절대로 개인 키를 볼 수 없다.
+
 ***
-출처 [SSL](https://www.cloudflare.com/ko-kr/learning/ssl/what-is-ssl/), [데이터 무결성](https://cocoon1787.tistory.com/778), [TSL](https://aws.amazon.com/ko/what-is/ssl-certificate/), [SSL 인증서](https://www.digicert.com/kr/what-is-an-ssl-certificate)
+
+**출처 [SSL](https://www.cloudflare.com/ko-kr/learning/ssl/what-is-ssl/), [데이터 무결성](https://cocoon1787.tistory.com/778), [TSL](https://aws.amazon.com/ko/what-is/ssl-certificate/), [SSL 인증서](https://www.digicert.com/kr/what-is-an-ssl-certificate)**
 
