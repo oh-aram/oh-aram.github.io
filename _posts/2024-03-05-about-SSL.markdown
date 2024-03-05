@@ -68,12 +68,19 @@ SSL/TLS를 사용하는 웹사이트의 URL에는 "HTTP" 대신 "HTTPS"가 있�
 > 데이터 무결성(data inergrity): 데이터 무결성은 데이터의 정확성, 일관성, 유효성이 유지되는 것을 의미한다.
 > 여기서 정확성이란 중복이나 누락이 없는 상태를 의미하고, 일관성은 원인과 결과의 의미가 연속적으로 보장되어 변하지 않는 상태를 의미한다.
 
-### TSL
+### TLS
 
 > TLS(Transport Layer Security) 전송 계층 보안
 
 TLS는 SSL의 더욱 향상된 안전한 버전이다. 대부분 더이상의 SSL은 사용되지 않으며 대부분의 경우 SSL 및 SSL/TLS라는 용어 모두 TLS 프로토콜과 TLS 인증서를 나타낸다.
 
+### SSL 인증서란
+SSL 인증서는 공개 키과 개인 키라는 키쌍을 가지고 있다. 이 키들이 함께 작용하여 암호화된 연결을 수립한다.
+인증서는 또한 주체(subject)라는것을 포함하고 있다. 이것은 인증서/웹사이트 소유자의 ID이다.
+인증서를 얻으려면 서버에서 **인증서 서명 요청(CSR)** 을 생성해야 한다. 이 과정에서 서버에서 개인 키와 공개 키가 생성된다.
+SSL 인증서 발급자(인증 기관 또는 CA라 함)에게 보내는 CSR 데이터 파일에는 공개 키가 포함된다.
+인증 기관은 CSR 데이터 파일을 사용해 키 자체를 훼손하지 않고 개인 키에 맞는 데이터 구조를 생성한다.
+인증 기관은 절대로 개인 키를 볼 수 없다.
 ***
-##### 출처 [SSL](https://www.cloudflare.com/ko-kr/learning/ssl/what-is-ssl/), [데이터 무결성](https://cocoon1787.tistory.com/778), [TSL](https://aws.amazon.com/ko/what-is/ssl-certificate/)
+출처 [SSL](https://www.cloudflare.com/ko-kr/learning/ssl/what-is-ssl/), [데이터 무결성](https://cocoon1787.tistory.com/778), [TSL](https://aws.amazon.com/ko/what-is/ssl-certificate/), [SSL 인증서](https://www.digicert.com/kr/what-is-an-ssl-certificate)
 
