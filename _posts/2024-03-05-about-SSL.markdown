@@ -75,5 +75,5 @@ SSL/TLS를 사용하는 웹사이트의 URL에는 "HTTP" 대신 "HTTPS"가 있�
 TLS는 SSL의 더욱 향상된 안전한 버전이다. 대부분 더이상의 SSL은 사용되지 않으며 대부분의 경우 SSL 및 SSL/TLS라는 용어 모두 TLS 프로토콜과 TLS 인증서를 나타낸다.
 
 ***
-#### 출처 [SSL](https://www.cloudflare.com/ko-kr/learning/ssl/what-is-ssl/), [데이터 무결성](https://cocoon1787.tistory.com/778), [TSL](https://aws.amazon.com/ko/what-is/ssl-certificate/)
+##### 출처 [SSL](https://www.cloudflare.com/ko-kr/learning/ssl/what-is-ssl/), [데이터 무결성](https://cocoon1787.tistory.com/778), [TSL](https://aws.amazon.com/ko/what-is/ssl-certificate/)
 
