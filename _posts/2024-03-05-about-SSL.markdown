@@ -11,7 +11,7 @@ category: SSL
 # multiple tag entries are possible
 tags: [SSL, http, https]
 # thumbnail image for post
-img: ":post_pic1.jpg"
+img: ":http-vs-https.svg"
 # disable comments on this page
 #comments_disable: true
 

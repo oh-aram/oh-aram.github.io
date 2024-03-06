@@ -11,7 +11,7 @@ category: bundler
 # multiple tag entries are possible
 tags: [jekyll, ruby, bundler]
 # thumbnail image for post
-img: ":post_pic1.jpg"
+img: ":face.png"
 # disable comments on this page
 #comments_disable: true
 
