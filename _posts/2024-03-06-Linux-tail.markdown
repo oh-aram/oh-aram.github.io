@@ -1,6 +1,6 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_about_SSL
+lng_pair: id_about_tail
 title: 리눅스 tail에 대하여
 
 # post specific
@@ -9,7 +9,7 @@ author: oh-aram
 # multiple category is not supported
 category: Linux
 # multiple tag entries are possible
-tags: [tail, Linux, Command]
+tags: [Linux, Command]
 # thumbnail image for post
 img: ":face.png"
 # disable comments on this page
