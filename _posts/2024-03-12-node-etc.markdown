@@ -1,0 +1,107 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_about_node
+title: node 버전
+
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: oh-aram
+# multiple category is not supported
+category: node
+# multiple tag entries are possible
+tags: [nvm, npm]
+# thumbnail image for post
+img: ":face.png"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2024-03-12 10:00:00 +0900
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-02-10 08:11:06 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
+# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
+#image_viewer_on: true
+# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
+# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+#published: false
+---
+
+<!-- outline-start -->
+node 버전 관리 포스팅
+<!-- outline-end -->
+
+### npm과 nvm
+
+> npm(node package manager) : node.js 의 패키지 관리자
+
+- node.js로 개발된 프로그램(npm 패키지)를 편리하게 설치, 업데이트 및 삭제 해 주는 프로그램
+- node.js가 설치된 상태에서 npm 명령어를 통해 npm 서비스에 등록된 Node.js로 작성된 패키지 관리
+- node.js 설치 시, npm이 같이 설치 됨
+
+> nvm(node version manager) : node.js의 버전 관리자
+
+- node.js에서 제공하는 여러 버전의 사용을 돕는 프로그램  
+- node.js를 설치하는 툴  
+- 각 버전을 유지하면서 시스템을 구성해야하는 경우를 위해 사용
+
+***정리***
+1. 원하는 버전으로 nvm 설치
+2. node.js 설치
+3. npm으로 필요한 패키지 추가 설치
+
+***설치***
+1. nvm → node.js → npm (추천)
+2. brew → node.js → npm (OS에 직접 설치, 비추천)
+
+### Node 버전 관리
+
+```python
+# node 버전 설치
+$ npm install [버전]
+
+# node 버전 확인
+$ node --version
+
+# node 삭제 
+$ npm uninstall [버전]
+
+# 사용할 버전 지정
+$ nvm use [버전]
+
+# default 버전 설정
+$ nvm alias default [버전]
+
+# 설치된 node 버전 리스트
+$ nvm ls
+$ nvm list
+```
+
+### sh: 1: env-cmd: not found 오류 발생 시
+
+```python
+$ npm install -g env-cmd
+```
+### forever: command not found 오류 발생 시
+
+```python
+$ npm install forever -g
+```
+위의 명령어를 실행해보자
+
+***
+
+***출처 [npm과nvm](https://velog.io/@minidoo/Node-npm%EA%B3%BC-nvm-%EC%B0%A8%EC%9D%B4)***
+
