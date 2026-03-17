@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
 lng_pair: id_about_spring
-title: JAVA SPRING의 탄생
+title: 객체 지향 설계와 스프링
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -40,7 +40,7 @@ date: 2024-04-15 10:00:00 +0900
 ---
 
 <!-- outline-start -->
-node 버전 관리 포스팅
+Spring 공부 챕터1
 <!-- outline-end -->
 
 ### JAVA SPRING의 탄생

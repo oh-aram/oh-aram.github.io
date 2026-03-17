@@ -20,8 +20,9 @@
   {%- comment %} get page with layout {% endcomment -%}
   {%- assign _pages = lng_pages | where_exp: "item", "item.layout == button_key" -%}
 
-  {%- comment %} to avoid multiple post-list pages {% endcomment -%}
-  {%- if site.paginate > 0 and button_key == "post-list" and _pages.size > 1 -%}
+  {%- comment %} use only one page per layout to avoid duplicate nav buttons {% endcomment -%}
+  {%- if _pages.size > 1 -%}
+    {%- assign _pages = _pages | sort: "url" -%}
     {%- assign _tmp_page = _pages[0] -%}
     {% comment %} create an empty array {% endcomment -%}
     {%- assign _pages = '' | split: '' -%}
