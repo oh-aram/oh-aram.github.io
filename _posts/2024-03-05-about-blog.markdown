@@ -9,7 +9,7 @@ author: oh-aram
 # multiple category is not supported
 category: Blog
 # multiple tag entries are possible
-tags: [jekyll, github-pages, markdown]
+tags: [jekyll, github, Blog]
 # thumbnail image for post
 img: ":face.png"
 # disable comments on this page

@@ -7,7 +7,7 @@ title: node 버전
 # if not specified, .name will be used from _data/owner/[language].yml
 author: oh-aram
 # multiple category is not supported
-category: node
+category: Node
 # multiple tag entries are possible
 tags: [nvm, npm]
 # thumbnail image for post

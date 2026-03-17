@@ -9,7 +9,7 @@ author: oh-aram
 # multiple category is not supported
 category: Spring
 # multiple tag entries are possible
-tags: [spring, study]
+tags: [java, spring, study]
 # thumbnail image for post
 img: ":face.png"
 # disable comments on this page

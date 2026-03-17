@@ -7,9 +7,9 @@ title: 블로그 로컬 실행
 # if not specified, .name will be used from _data/owner/[language].yml
 author: oh-aram
 # multiple category is not supported
-category: bundler
+category: Blog
 # multiple tag entries are possible
-tags: [jekyll, ruby, bundler]
+tags: [jekyll, ruby, Blog]
 # thumbnail image for post
 img: ":face.png"
 # disable comments on this page
