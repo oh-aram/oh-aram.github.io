@@ -8,9 +8,13 @@
 {%- assign display = nil -%}
 {%- assign max_width = nil -%}
 {%- assign title_sub = nil -%}
+{%- assign image_style = nil -%}
 
 {%- if site.data.conf.posts.thumbnail_img and include.post.img -%}
   {%- assign image = include.post.img -%}
+  {%- if include.post.img_fit == 'contain' -%}
+    {%- assign image_style = "background-size: contain; background-position: center center; background-repeat: no-repeat;" -%}
+  {%- endif -%}
 {%- else -%}
   {%- if site.data.conf.posts.thumbnail_img_fill != true -%}
     {%- assign display = 'display: none;' -%}
