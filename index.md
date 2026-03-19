@@ -36,4 +36,4 @@ img: ":new-home-heading2.jpeg"
 # don't forget that this is root index.html. If you disable this, there will be no index.html page to open
 #published: false
 ---
-# 이것 저것 기록하는 개발 블로그
+# 이것 저것 기록하는 개발 블로그 \^0^/
